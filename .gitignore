@@ -1,0 +1,106 @@
+# ==============================
+# Node / Vite
+# ==============================
+
+node_modules/
+dist/
+.vite/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Android / Gradle
+# ==============================
+
+*.apk
+*.aar
+*.ap_
+*.aab
+*.dex
+*.class
+
+.gradle/
+build/
+**/build/
+
+local.properties
+
+bin/
+gen/
+out/
+
+.cxx/
+.externalNativeBuild/
+
+# ==============================
+# Android Studio / IntelliJ
+# ==============================
+
+.idea/
+*.iml
+
+# ==============================
+# Capacitor generated files
+# ==============================
+
+android/app/src/main/assets/public
+android/app/src/main/assets/capacitor.config.json
+android/app/src/main/assets/capacitor.plugins.json
+android/app/src/main/res/xml/config.xml
+
+capacitor-cordova-android-plugins/
+
+# ==============================
+# Logs / temporary files
+# ==============================
+
+*.log
+*.tmp
+*.temp
+
+# ==============================
+# OS
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Keystores / signing
+# ==============================
+
+*.jks
+*.keystore
+
+# ==============================
+# Lint / profiling
+# ==============================
+
+lint/intermediates/
+lint/generated/
+lint/outputs/
+lint/tmp/
+*.hprof
+
+# ==============================
+# Fastlane
+# ==============================
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# ==============================
+# Editor
+# ==============================
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json

@@ -1,0 +1,5 @@
+{
+  "appId": "com.mandobluetooth.controller",
+  "appName": "BT Control",
+  "webDir": "dist"
+}
