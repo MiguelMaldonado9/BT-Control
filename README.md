@@ -70,27 +70,6 @@ El APK debug se genera en
 distribución: para publicar una release se debe configurar una clave de firma
 segura fuera del repositorio.
 
-## Preparar la primera publicación en GitHub
-
-Este directorio de trabajo todavía no tiene un repositorio Git ni un remoto
-configurado. Después de crear un repositorio vacío en GitHub, desde PowerShell
-en la raíz del proyecto:
-
-```powershell
-git init
-git add .
-git status
-git commit -m "Initial BT Control project"
-git branch -M main
-git remote add origin https://github.com/USUARIO/REPOSITORIO.git
-git push -u origin main
-```
-
-Revisa `git status` antes del primer commit. `.gitignore` excluye dependencias,
-salidas de compilación, archivos Android locales y posibles credenciales de
-firma/servicios. No subas claves privadas, archivos `.env`, `local.properties`
-ni credenciales. Aún no se incluye un archivo `LICENSE`; define una licencia
-antes de hacer público el código.
 
 ## Pruebas y alcance de la validación
 
