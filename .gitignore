@@ -102,3 +102,10 @@ fastlane/test_output
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
+
+
+# =================================
+# Android signing protected files
+# =================================
+android/keystore.properties
+android/keystore-base64.txt
